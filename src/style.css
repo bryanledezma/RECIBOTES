@@ -1,0 +1,82 @@
+:root {
+background-color: #1A1B26;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.contenedorFormulario{
+    display: grid;
+    grid-template-columns: 70vb 30vb;
+    border-radius: 10px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    height: 60vh;
+    
+}
+
+.formulario{
+   
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+   row-gap: 20px;
+}
+
+.datosform{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    display: flex;
+    flex-direction: column;
+    color:#1A1B26;
+}
+
+h1{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-size: 35px;
+    text-align: center;
+}
+
+input{
+    font-size: 20px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: #dfe8f5;
+    margin-left: 10px;
+}
+
+
+#btnGenerar{
+    height: 50px;
+    width: 250px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+#btnLimpiar{
+    height: 50px;
+    width: 150px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+
+
+.fotocontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.imgbote{
+    height: 540px;
+    object-fit: cover;
+}
+
+.labelform{
+    font-weight: bold;
+    
+}
