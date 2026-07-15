@@ -1,5 +1,5 @@
 :root {
-background-color: #1A1B26;
+background-color: #324691;
 }
 
 body{
@@ -10,13 +10,13 @@ body{
 }
 .contenedorFormulario{
     display: grid;
-    grid-template-columns: 70vb 30vb;
-    border-radius: 10px;
+    grid-template-columns: 70% 30%;
+    border-radius: 20px;
     background-color: white;
     font-family: Arial, sans-serif;
-    font-size: 25px;
-    height: 60vh;
-    
+    font-size: 40px;
+    height: 90vh;
+    width: 70vw;
 }
 
 .formulario{
@@ -24,12 +24,13 @@ body{
    display: grid;
    grid-template-columns: 1fr 1fr;
    align-items: center;
-   row-gap: 20px;
+   row-gap: 30px;
 }
 
 .datosform{
     padding-left: 1vw;
     padding-right: 1vw;
+    margin-left: 2vw;
     display: flex;
     flex-direction: column;
     color:#1A1B26;
@@ -38,14 +39,15 @@ body{
 h1{
     padding-top: 3vh;
     padding-bottom: 3vh;
-    font-size: 35px;
+    font-size: 52px;
     text-align: center;
+    color: #324691;
 }
 
 input{
-    font-size: 20px;
-    height: 35px;
-    border-radius: 8px;
+    font-size: 30px;
+    height: 60px;
+    border-radius: 16px;
     border: none;
     background-color: #dfe8f5;
     margin-left: 10px;
@@ -53,26 +55,34 @@ input{
 
 
 #btnGenerar{
-    height: 50px;
-    width: 250px;
-    margin-left: 0px;
-    font-size: 20px;
+    height: 80px;
+    width: 300px;
+    margin-left: 80px;
+    font-size: 30px;
+    background-color: #324691;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid rgb(131, 4, 4);
 }
 #btnLimpiar{
-    height: 50px;
-    width: 150px;
-    margin-left: 150px;
-    font-size: 20px;
+    height: 80px;
+    width: 180px;
+    margin-left: 0px;
+    font-size: 30px;
+    color: rgb(131, 4, 4);
+    border-radius: 15px;
+    border: 1px solid rgb(131, 4, 4);
 }
 
 
 .fotocontainer{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .imgbote{
-    height: 540px;
+    height: 75vh;
     object-fit: cover;
 }
 
