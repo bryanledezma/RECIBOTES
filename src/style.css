@@ -45,7 +45,7 @@ h1{
 }
 
 input{
-    font-size: 30px;
+    font-size: 17px;
     height: 60px;
     border-radius: 16px;
     border: none;
@@ -62,16 +62,17 @@ input{
     background-color: #324691;
     color: white;
     border-radius: 15px;
-    border: 1px solid rgb(131, 4, 4);
+    border: none;
 }
 #btnLimpiar{
     height: 80px;
     width: 180px;
     margin-left: 0px;
+    color: white;
     font-size: 30px;
-    color: rgb(131, 4, 4);
+    background-color: rgb(131, 4, 4);
     border-radius: 15px;
-    border: 1px solid rgb(131, 4, 4);
+    border: none;
 }
 
 
