@@ -14,7 +14,7 @@ body{
     border-radius: 20px;
     background-color: white;
     font-family: Arial, sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     height: 90vh;
     width: 70vw;
 }
@@ -46,11 +46,17 @@ h1{
 
 input{
     font-size: 17px;
-    height: 60px;
+    height: 40px;
     border-radius: 16px;
     border: none;
     background-color: #dfe8f5;
     margin-left: 10px;
+}
+
+select{
+    height: 40px;
+    border-radius: 16px;
+    font-size: 25px;
 }
 
 

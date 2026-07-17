@@ -46,7 +46,7 @@ export async function generarPDF(datos){
 
      pagina.drawText(datos.beneficiario, {
         x: 400,
-        y: 200,
+        y: 190,
         size: 10,
         font: fuente,
         color: rgb(0,0,0)
@@ -59,6 +59,24 @@ export async function generarPDF(datos){
         font: fuente,
         color: rgb(0,0,0)
     });
+
+    pagina.drawText(datos.cajero, {
+        x: 100,
+        y: 190,
+        size: 10,
+        font: fuente,
+        color: rgb(0,0,0)
+    });
+
+    pagina.drawText(datos.puesto, {
+        x: datos.x, //132 para DIRECTORA y 
+        y: 170,
+        size: 10,
+        font: fuente,
+        color: rgb(0,0,0)
+    });
+
+
 
     const pdfBytes = await pdfDoc.save();
 
