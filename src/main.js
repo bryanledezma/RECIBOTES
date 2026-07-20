@@ -45,3 +45,14 @@ formulario.addEventListener("submit", (e) => {
 
 )
 
+const btnLimpiar = document.getElementById("btnLimpiar");
+btnLimpiar.addEventListener("click", limpiarFormulario);
+
+function limpiarFormulario(){
+    document.getElementById("clave").value = "";
+    document.getElementById("propietario").value = "";
+    document.getElementById("direccion").value = "";
+    document.getElementById("beneficiario").value = "";
+    document.getElementById("telefono").value = "";
+
+}
