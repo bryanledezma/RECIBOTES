@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catastro: Generador de Recibos</title>
+    <script type="module" crossorigin src="/RECIBOTES/assets/index-CbDGcw78.js"></script>
+    <link rel="stylesheet" crossorigin href="/RECIBOTES/assets/index-C8PyYPOD.css">
+  </head>
+  <body>
+    <div class="contenedorFormulario">
+     
+      <div class="datosform">
+        <h1>ACTA DE ENTREGA DE BOTES DE BASURA</h1>
+      <form class="formulario"> 
+        
+        <label>Cajero: </label><select id="cajero">
+          <option value=4>Blanca Idalia Velazquez Hernandez</option>
+          <option value=6>Bryan Daniel Ledezma Viveros</option>
+          <option value=7>Lazaro Jacobo Segura Moreno</option>          
+        </select> 
+        <label>Clave Catastral: </label><input id="clave">
+        <label>Propietario del predio</label><input id="propietario">
+        <label>Dirección del predio</label><input id="direccion">
+        <label>Nombre del beneficiario</label><input id="beneficiario">
+        <label>Numero de teléfono </label><input id="telefono">
+        
+        
+      <button id="btnLimpiar" type="button">Limpiar</button>
+      <button id="btnGenerar" type="submit">Generar Acta</button>
+      </form>
+      </div>
+      <div class="fotocontainer">
+        <img src="/RECIBOTES/assets/bote-CSmHZWL6.jpg" class="imgbote" alt="Bote de basura 2026">
+      </div>
+    </div>
+  
+  </body>
+</html>
