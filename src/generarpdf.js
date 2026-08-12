@@ -2,7 +2,7 @@ import { PDFDocument, StandardFonts, rgb } from "pdf-lib";
 
 export async function generarPDF(datos){
 
-    const respuesta = await fetch("/plantilla.pdf");
+    const respuesta = await fetch("/RECIBOTES/plantilla.pdf");
     const bytes = await respuesta.arrayBuffer();
 
     const pdfDoc = await PDFDocument.load(bytes);
