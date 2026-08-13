@@ -45,18 +45,24 @@ h1{
 }
 
 input{
-    font-size: 17px;
-    height: 40px;
-    border-radius: 16px;
-    border: none;
-    background-color: #dfe8f5;
-    margin-left: 10px;
+   background: #fff;
+    border: 2px solid #d1d5db;
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #354a9f;
+    box-shadow: 0 0 0 3px rgba(53, 74, 159, .12);
 }
 
 select{
-    height: 40px;
-    border-radius: 16px;
-    font-size: 25px;
+   background: #fff;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 20px;
 }
 
 
